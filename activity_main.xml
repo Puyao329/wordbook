@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/insert"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="添加" />
+
+        <Button
+            android:id="@+id/search"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="查找" />
+
+        <Button
+            android:id="@+id/delete"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="删除" />
+        <Button
+            android:id="@+id/SHOW_ALL"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="全部" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittextshape"
+            android:hint="@string/word"
+            android:inputType="textUri"
+            android:padding="3dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittextshape"
+            android:hint="@string/detail"
+            android:inputType="text"
+            android:padding="3dp"
+             />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittextshape"
+            android:hint="@string/search"
+            android:inputType="textUri"
+            android:padding="3dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
